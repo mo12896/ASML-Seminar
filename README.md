@@ -8,9 +8,9 @@ Training.
 ### The  Adversarial Robustness Toolbox (ART)
 
 To conduct the experiments, I make use of the [ART](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html "Google Search"). 
-The benefit of ART is, that it provides a rich documentation, which allows for quick analyses
-and combinations of Adversarial Attacks and Defense Strategies. Examples and 
-Notebook Tutorials additionally help to setup own experiments. 
+The benefit of ART is, that it provides a rich API for the field of Adversarial and Secure Machine Learning, which allows for quick analyses
+and combinations of Adversarial Attacks and Defense Strategies. Example scripts, Notebook Tutorials and a comprehensive documentation help 
+to setup own experiments. 
 
 ### Setup of the ART
 
@@ -25,7 +25,7 @@ Whithin the seminar work I suggest two experiments:
 Though, I implemented both scenarios in a jupyter notebook, which are based on a 
 Tutorial that can be found [here](https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_training_mnist.ipynb "Google Search").
 
-While I faced the aforementioned issues during the implementation of the experiments, I can only give a vague result interpretation of the first experiment. 
+While I faced the aforementioned issues during the implementation of the experiments, I can only give a vague interpretation for the results of the first experiment. 
 Since I used Gaussian data augmentation instead of STN, the results have to be reevaluated with STN by some future work. Nonetheless, my experiments show, 
 that the HSJA would be completely immune to robust training based on Gaussian noise augmentation. This opposes the argumentation by Li et al., which is why I rather assume 
-some technical bug in my implementation. 
+a technical bug in my implementation. Due to the depth of this issue I did not conducted further investigations.
