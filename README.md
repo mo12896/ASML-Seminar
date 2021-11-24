@@ -1,4 +1,4 @@
-# ASML_Seminar
+# ASML Seminar
 
 As stated in the seminar work, I conducted some experiments to evaluate the 
 [HopSkipJumpAttack](https://arxiv.org/abs/1904.02144 "Google Search") (HSJA) by Chen et. al against state of the art defense 
