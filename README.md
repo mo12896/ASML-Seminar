@@ -1,6 +1,8 @@
 # ASML Seminar
 
-As stated in the seminar work, I conducted some experiments to evaluate the 
+> To get the context of this seminar, please watch my [presentation test run](https://www.youtube.com/watch?v=fEiz0tPbb9Q&t=888s)
+
+As stated in my [seminar work](Seminararbeit.pdf), I conducted some experiments to evaluate the 
 [HopSkipJumpAttack](https://arxiv.org/abs/1904.02144 "Google Search") (HSJA) by Chen et. al against state of the art defense 
 techniques such as Stability Training with Noise (STN) and Adversarial
 Training.
